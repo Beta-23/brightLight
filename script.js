@@ -4,12 +4,13 @@ const toggleIcon = document.getElementById('toggle-icon');
 const image1 = document.getElementById('image1');
 const image2 = document.getElementById('image2');
 const image3 = document.getElementById('image3');
-const textBox = document.getElementById('tex-box');
+const textBox = document.getElementById('text-box');
 
 // Dark Mode Style
 function darkMode () {
-	nav.style.backgroundColor = 'rbg(0 0 0 / 50%)';
-	textBox.style.backgroundColor = 'rbg(255 255 255 / 50%)';
+	nav.style.backgroundColor = 'rgb(0 0 0 / 50%)';
+	textBox.style.backgroundColor = 'rgb(255 255 255 / 50%)';
+	console.log(toggleIcon.children);
 }
 // Switch Theme Event Dynamically
 function switchTheme (event) {
